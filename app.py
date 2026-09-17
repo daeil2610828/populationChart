@@ -46,7 +46,7 @@ st.divider()
 # 데이터 로드
 try:
     df_pop = load_and_clean_pop_data('pop_data.csv')
-    st.success("`pop_data.csv` 데이터 정제 및 로드가 완료되었습니다.")
+    st.success("데이터 로드 완료!")
 except Exception as e:
     st.error(f"데이터를 불러오는 중 오류가 발생했습니다: {e}")
     st.stop()
