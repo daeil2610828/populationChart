@@ -99,7 +99,7 @@ with tab2:
 
     st.divider()
 
-    st.subheader("📊 기술통계량 (`describe()`)")
+    st.subheader("📊 기술통계량")
     st.dataframe(df_filtered.describe().round(2), use_container_width=True)
 
 # 탭 3: 연도별/연령대별 그래프 시각화
