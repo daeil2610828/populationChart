@@ -40,7 +40,7 @@ def load_and_clean_pop_data(file_path='pop_data.csv'):
 
 # 3. 대시보드 메인 헤더
 st.title("👥 연도별·연령별 인구 구조 분석 대시보드")
-st.markdown("`pop_data.csv` 데이터를 자동으로 정제하여 2010년~2024년 연령대별 인구 변동 및 고령화 추이를 분석합니다.")
+st.markdown("2010년~2024년 연령대별 인구 변동 및 고령화 추이를 분석합니다.")
 st.divider()
 
 # 데이터 로드
